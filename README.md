@@ -1,5 +1,9 @@
 CEBD-1260
+
+
 ##**final exam folder:
+
+
 **question 1: 
 
 Your first task to is to classify data from a cancer diagnostic database. In this database are patients with tumors, characteristics of those tumors, and biospy results indicating whether the tumor is Malignant or Benign.
