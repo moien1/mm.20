@@ -34,10 +34,13 @@ Use any machine learning algorithm you wish. In your answer include a short desc
    - concae points: 0.04
    - symmetry: 0.18
    - fractal dimension: 0.05
+   
+   
    **Answer:
 
 I have chosen k-nearest Neighbors algoritm to predict y. I use this algoritm because cancer as a target is discrete (1 and 0).
 First, I upload csv file in jupyter then in new notebook (Python 3), import libraries that I need such as numpy, pandas, neighbors from sklearn. then I use data frame (df) to read csv file. After that I define xs (first ten columns) and y (cancer column) and then with knn I predict y (person who has cancer with tumor)
+
 
 **Question 2:
 
