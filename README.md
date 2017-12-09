@@ -1,5 +1,5 @@
 CEBD-1260
-final exam folder:
+##**final exam folder:
 **question 1: 
 
 Your first task to is to classify data from a cancer diagnostic database. In this database are patients with tumors, characteristics of those tumors, and biospy results indicating whether the tumor is Malignant or Benign.
@@ -32,7 +32,8 @@ Use any machine learning algorithm you wish. In your answer include a short desc
    - fractal dimension: 0.05
    **Answer:
 
-I have chosen linear regression to predict y. First, I upload csv file in jupyter then in new notebook (Python 3), import libraries that I need such as numpy, pandas, sklearn, sklearn.metrics. then I use data frame (df) to read csv file. After that I start defining the features (Xs) and target, then use linear regression to predict target.
+I have chosen k-nearest Neighbors algoritm to predict y. I use this algoritm because cancer as a target is discrete (1 and 0).
+First, I upload csv file in jupyter then in new notebook (Python 3), import libraries that I need such as numpy, pandas, neighbors from sklearn. then I use data frame (df) to read csv file. After that I define xs (first ten columns) and y (cancer column) and then with knn I predict y (person who has cancer with tumor)
 
 **Question 2:
 
